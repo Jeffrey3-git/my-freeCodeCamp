@@ -1,0 +1,26 @@
+let roles = ["user", "creator", "moderator", "staff", "admin"]
+
+const isValidSchema = obj => typeof(obj.username) === "string" && typeof(obj.posts) === "number" && typeof(obj.verified) === "boolean" && roles.includes(obj.role);
+
+
+console.log(isValidSchema({ username: "henry", posts: 0, verified: true, role: "staff" }));
+
+console.log(isValidSchema({ username: "sara", posts: 45, verified: false, role: "creator", followers: 70 }));
+
+console.log(isValidSchema({ username: "penelope", posts: 20, verified: true, role: "admin" }));
+
+console.log(isValidSchema({ username: "kevin", posts: 0, verified: false, role: "user" }));
+
+console.log(isValidSchema({ username: "george", posts: 15, verified: true, role: "moderator" }));
+
+console.log(isValidSchema({ username: "david", posts: 0, verified: false, role: "guest" }));
+
+console.log(isValidSchema({ username: "wendy", posts: 10, verified: true }));
+
+console.log(isValidSchema({ username: "fabian", posts: 1, verified: true, role: true }));
+
+console.log(isValidSchema({ username: 8, posts: 1, verified: true, role: "user" }));
+
+console.log(isValidSchema({ username: "penny", posts: "10", verified: true, role: "staff" }));
+
+console.log(isValidSchema({ username: "john", posts: "1", verified: "true", role: "admin" }));
