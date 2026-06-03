@@ -1,8 +1,8 @@
 # my-freeCodeCamp
 
-## freeCodeCamp Certification Projects
+## freeCodeCamp Certification
 
-Welcome to my personal archive of major projects completed during my software engineering journey on freeCodeCamp. This repository tracks my progress, problem-solving growth, foundational skills, and algorithmic thinking.
+Welcome to my personal archive of major daily-challenges, labs and exercises completed during my software engineering journey on freeCodeCamp. This repository tracks my progress, problem-solving growth, foundational skills, and algorithmic thinking.
 
 ---
 
@@ -10,6 +10,7 @@ Welcome to my personal archive of major projects completed during my software en
 
 *   **`Book-Catalog-Utility/`** — Core utility applications and primary certification projects.
 *   **`Labs/`** — Algorithmic challenges, experimental scripts, and standalone problem-solving exercises (e.g., array chunking algorithms).
+*   **`Daily-Challenges`** - This tracks my daily progress in the challenges posted by freeCodeCamp everyday.
 
 ---
 
